@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xerô Burguer: hambúrgueres artesanais com um toque do Nordeste. Conheça o cardápio e monte sua combinação.">
+    <title>Xerô Burguer | Um xerô de Nordeste</title>
+    <link rel="stylesheet" href="cardapio.css">
+  </head>
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+    <div class="moldura" id="topo">
+      <!-- Cabecalho: marca e links para as paginas. -->
+      <div class="cabecalho">
+        <div class="container cabecalho-conteudo">
+          <a class="marca" href="index.html" aria-label="Xerô Burguer — início">
+            <div class="simbolo-marca" aria-hidden="true">
+              <div></div>
+            </div>
+            <div>
+              Xerô
+              <div class="marca-menor">BURGUER</div>
+            </div>
+          </a>
+          <!-- Menu: cada link abre uma pagina ou leva a um id. -->
+          <div class="navegacao">
+            <a href="index.html" aria-current="page">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="cardapio.html#monte-o-seu">Monte o seu</a>
+          </div>
+          <a class="botao botao-pequeno atalho-cardapio" href="cardapio.html">
+            Ver cardápio
+            <div aria-hidden="true">↗</div>
+          </a>
+        </div>
+      </div>
+      <div id="conteudo" tabindex="-1">
+        <!-- Apresentacao da pagina inicial: titulo, texto e imagem. -->
+        <div class="hero">
+          <div class="container hero-conteudo">
+            <div class="hero-texto">
+              <h1 id="titulo-inicio">O Nordeste<br>entre <b class="destaque-titulo">dois pães.</b></h1>
+              <p>Pão macio, carne na brasa e aquele toque da nossa terra. Tem queijo coalho, tem carne de sol e tem muito sabor pra contar.</p>
+              <div class="acoes">
+                <a class="botao" href="cardapio.html">
+                  Conheça o cardápio
+                  <div aria-hidden="true">↗</div>
+                </a>
+                <a class="link-claro" href="cardapio.html#monte-o-seu">Monte do seu jeito</a>
+              </div>
+              <div class="hero-assinatura">
+                <div class="estrela" aria-hidden="true"></div>
+                Um xerô de Nordeste em cada mordida.
+              </div>
+            </div>
+            <div class="hero-visual">
+              <div class="sol" aria-hidden="true"></div>
+              <img class="hero-burguer" src="imagens/hero-burguer.png" alt="Hambúrguer ilustrativo com carne, queijo coalho grelhado, carne de sol, alface e tomate." width="1280" height="1280">
+              <div class="selo" aria-hidden="true">
+                Brasa,
+                <br>
+                raiz e
+                <br>
+                <b>sabor.</b>
+              </div>
+            </div>
+          </div>
+          <!-- Tres produtos em destaque. O link envolve todo o bloco. -->
+          <div class="container destaques-hero">
+            <a class="destaque" href="cardapio.html#cabra-da-peste">
+              <img src="imagens/cabra-da-peste.jpg" alt="" width="120" height="100">
+              <div class="destaque-info">
+                <b class="nome-destaque">Cabra da Peste</b>
+                <p class="descricao-destaque">Coalho e carne de sol</p>
+                <b class="preco-destaque">R$ 32,90</b>
+              </div>
+            </a>
+            <a class="destaque" href="cardapio.html#arretado">
+              <img src="imagens/arretado.jpg" alt="" width="120" height="100">
+              <div class="destaque-info">
+                <b class="nome-destaque">Arretado</b>
+                <p class="descricao-destaque">Cheddar e bacon crocante</p>
+                <b class="preco-destaque">R$ 29,90</b>
+              </div>
+            </a>
+            <a class="destaque" href="cardapio.html#oxente">
+              <img src="imagens/oxente.jpg" alt="" width="120" height="100">
+              <div class="destaque-info">
+                <b class="nome-destaque">Oxente!</b>
+                <p class="descricao-destaque">Banana-da-terra e queijo</p>
+                <b class="preco-destaque">R$ 31,90</b>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="faixa-cordel">
+          <div class="estrela" aria-hidden="true"></div>
+          <p>Pão, brasa e um xerô de Nordeste.</p>
+          <div class="estrela" aria-hidden="true"></div>
+        </div>
+        <div class="chamada-montador container">
+          <div class="convite-imagem">
+            <img src="imagens/hero-burguer.png" alt="Hambúrguer ilustrativo para inspirar sua combinação." width="1280" height="1280">
+          </div>
+          <div>
+            <h2 id="titulo-convite">Seu gosto.<br><b class="destaque-titulo">Seu hambúrguer.</b></h2>
+            <p>Do pão aos adicionais, a combinação fica por sua conta. Experimente as opções do nosso montador e descubra seu próximo favorito.</p>
+            <a class="botao botao-terracota" href="cardapio.html#monte-o-seu">
+              Quero montar o meu
+              <div aria-hidden="true">↗</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Rodape: nome da hamburgueria e informacoes do projeto. -->
+      <div class="rodape">
+        <div class="container">
+          <div class="rodape-linha">
+            <a class="marca marca-rodape" href="index.html">
+              Xerô
+              <div>Burguer</div>
+            </a>
+            <p>Sabor que conta história.</p>
+            <a href="#topo">Voltar ao topo ↑</a>
+          </div>
+          <p class="nota-projeto">Projeto acadêmico · HTML e CSS · Preços fictícios e imagens ilustrativas.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

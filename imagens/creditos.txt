@@ -1,0 +1,18 @@
+IMAGENS ILUSTRATIVAS - XERO BURGUER
+
+Fotos: Unsplash. Algumas fotos se repetem e nao representam as receitas exatas.
+cabra-da-peste.jpg: https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=500&fit=crop&auto=format
+arretado.jpg: https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&h=500&fit=crop&auto=format
+oxente.jpg: https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=500&fit=crop&auto=format
+mainha.jpg: https://images.unsplash.com/photo-1550317138-10000687a72b?w=800&h=500&fit=crop&auto=format
+sertanejo.jpg: https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=800&h=500&fit=crop&auto=format
+baiao-de-sabor.jpg: https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&h=500&fit=crop&auto=format
+batata-da-casa.jpg: https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&h=500&fit=crop&auto=format
+refrigerante.jpg: https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=800&h=500&fit=crop&auto=format
+suco-de-laranja.jpg: https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=800&h=500&fit=crop&auto=format
+agua-mineral.jpg: https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&h=500&fit=crop&auto=format
+milk-shake.jpg: https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&h=500&fit=crop&auto=format
+macaxeira-arretada.jpg e dadinhos-do-sertao.jpg: mesma foto provisoria de batata-da-casa.jpg.
+
+hero-burguer.png: gerado com o recurso integrado de imagens; fundo transparente.
+Prompt completo: Use case: product-mockup. Asset type: transparent cutout for the hero of a Brazilian northeastern hamburger restaurant website, Xerô Burguer. Create one large photorealistic, appetizing artisanal hamburger isolated on a genuinely transparent background, no text or logo. Toasted glossy sesame brioche bun, fresh curly lettuce, tomato, generous grilled beef patty, grilled Brazilian queijo coalho with lightly browned marks, a little shredded carne de sol and creamy house sauce. A believable single burger, slightly three-quarter frontal angle, warm side lighting and subtle grounded contact shadow. Rich golden brown, terracotta and warm yellow food tones, crisp tactile food photography. Entire burger visible, centered square composition with modest transparent breathing room, no plate, board, hands, props or backdrop. This is an illustrative product asset, not a UI screenshot.

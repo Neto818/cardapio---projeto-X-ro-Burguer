@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Conheça o cardápio da Xerô Burguer: hambúrgueres com inspiração nordestina, acompanhamentos e bebidas.">
+  <title>Nosso cardápio | Xerô Burguer</title>
+  <link rel="stylesheet" href="cardapio.css">
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o cardápio</a>
+  <div class="moldura" id="topo">
+    <!-- Cabecalho: marca e links para as paginas. -->
+    <div class="cabecalho">
+      <div class="container cabecalho-conteudo">
+        <a class="marca" href="index.html" aria-label="Xerô Burguer — início">
+          <div class="simbolo-marca" aria-hidden="true">
+            <div></div>
+          </div>
+          <div>
+            Xerô
+            <div class="marca-menor">BURGUER</div>
+          </div>
+        </a>
+        <!-- Menu: cada link abre uma pagina ou leva a um id. -->
+        <div class="navegacao">
+          <a href="index.html">Início</a>
+          <a href="cardapio.html" aria-current="page">Cardápio</a>
+          <a href="#monte-o-seu">Monte o seu</a>
+        </div>
+        <a class="botao botao-pequeno atalho-cardapio" href="#monte-o-seu">
+          Monte o seu
+          <div aria-hidden="true">↗</div>
+        </a>
+      </div>
+    </div>
+    <div id="conteudo" tabindex="-1">
+      <!-- Apresentacao do cardapio. -->
+      <div class="abertura-cardapio">
+        <div class="container abertura-conteudo">
+          <div class="abertura-texto">
+            <h1 id="titulo-cardapio">Nosso <b class="destaque-titulo">cardápio</b></h1>
+            <p>Tem um sabor arretado esperando por você. Escolha seu hambúrguer, capriche no acompanhamento e refresque
+              a prosa.</p>
+          </div>
+          <div class="abertura-ilustracao">
+            <img src="imagens/hero-burguer.png" alt="Hambúrguer ilustrativo com queijo coalho e carne de sol."
+              width="1280" height="1280">
+          </div>
+        </div>
+      </div>
+      <div class="container conteudo-cardapio">
+        <!-- Links internos: href com # procura o id correspondente. -->
+        <div class="categorias">
+          <a href="#hamburgueres">Hambúrgueres</a>
+          <a href="#acompanhamentos">Acompanhamentos</a>
+          <a href="#bebidas">Bebidas</a>
+          <a class="categoria-montador" href="#monte-o-seu">Monte o seu</a>
+        </div>
+        <p class="aviso">Fotos ilustrativas. Cardápio acadêmico com preços fictícios.</p>
+        <div class="secao-cardapio" id="hamburgueres" tabindex="-1">
+          <div class="titulo-secao">
+            <h2 id="titulo-hamburgueres">Hambúrgueres</h2>
+            <p>Receitas com um xerô de Nordeste.</p>
+          </div>
+          <!-- Cada div com class="produto" representa um produto. -->
+          <div class="grade-produtos">
+            <div class="produto" id="cabra-da-peste">
+              <img src="imagens/cabra-da-peste.jpg" alt="Foto ilustrativa de hambúrguer em pão com gergelim."
+                width="800" height="500">
+              <div class="produto-info">
+                <h3>Cabra da Peste</h3>
+                <p>Hambúrguer artesanal, queijo coalho, carne de sol desfiada e molho especial da casa.</p>
+                <p class="preco">R$ 32,90</p>
+              </div>
+            </div>
+            <div class="produto" id="arretado">
+              <img src="imagens/arretado.jpg" alt="Foto ilustrativa de hambúrguer; os ingredientes podem variar."
+                width="800" height="500">
+              <div class="produto-info">
+                <h3>Arretado</h3>
+                <p>Hambúrguer bovino, cheddar, bacon crocante e molho barbecue.</p>
+                <p class="preco">R$ 29,90</p>
+              </div>
+            </div>
+            <div class="produto" id="oxente">
+              <img src="imagens/oxente.jpg" alt="Foto provisória de hambúrguer para ilustrar o Oxente!." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Oxente!</h3>
+                <p>Hambúrguer artesanal, queijo, banana-da-terra caramelizada e molho agridoce.</p>
+                <p class="preco">R$ 31,90</p>
+              </div>
+            </div>
+            <div class="produto" id="mainha">
+              <img src="imagens/mainha.jpg" alt="Foto ilustrativa de hambúrguer com folhas e tomate." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Mainha</h3>
+                <p>Hambúrguer artesanal, queijo, alface, tomate e molho especial.</p>
+                <p class="preco">R$ 27,90</p>
+              </div>
+            </div>
+            <div class="produto" id="sertanejo">
+              <img src="imagens/sertanejo.jpg" alt="Foto provisória de hambúrguer para ilustrar o Sertanejo."
+                width="800" height="500">
+              <div class="produto-info">
+                <h3>Sertanejo</h3>
+                <p>Hambúrguer bovino, queijo coalho grelhado, cebola roxa e maionese de coentro.</p>
+                <p class="preco">R$ 30,90</p>
+              </div>
+            </div>
+            <div class="produto" id="baiao-de-sabor">
+              <img src="imagens/baiao-de-sabor.jpg" alt="Foto provisória de hambúrguer para ilustrar o Baião de Sabor."
+                width="800" height="500">
+              <div class="produto-info">
+                <h3>Baião de Sabor</h3>
+                <p>Hambúrguer artesanal, queijo manteiga, bacon crocante e geleia de pimenta.</p>
+                <p class="preco">R$ 33,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secao-cardapio" id="acompanhamentos" tabindex="-1">
+          <div class="titulo-secao">
+            <h2 id="titulo-acompanhamentos">Acompanhamentos</h2>
+            <p>Um cadinho a mais de sabor.</p>
+          </div>
+          <!-- Cada div com class="produto" representa um produto. -->
+          <div class="grade-produtos">
+            <div class="produto" id="batata-da-casa">
+              <img src="imagens/batata-da-casa.jpg" alt="Porção ilustrativa de batatas fritas em palitos." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Batata da Casa</h3>
+                <p>Batatas fritas crocantes, sal e um toque de páprica. Porção de 200 g.</p>
+                <p class="preco">R$ 14,90</p>
+              </div>
+            </div>
+            <div class="produto" id="macaxeira-arretada">
+              <img src="imagens/macaxeira-arretada.jpg"
+                alt="Foto ilustrativa de porção frita, usada como imagem provisória da macaxeira." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Macaxeira Arretada</h3>
+                <p>Macaxeira frita com manteiga de garrafa e maionese da casa. Porção de 200 g.</p>
+                <p class="preco">R$ 17,90</p>
+              </div>
+            </div>
+            <div class="produto" id="dadinhos-do-sertao">
+              <img src="imagens/dadinhos-do-sertao.jpg"
+                alt="Foto ilustrativa de porção frita, usada como imagem provisória dos dadinhos." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Dadinhos do Sertão</h3>
+                <p>Seis dadinhos de tapioca com queijo coalho e geleia de pimenta.</p>
+                <p class="preco">R$ 19,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secao-cardapio" id="bebidas" tabindex="-1">
+          <div class="titulo-secao">
+            <h2 id="titulo-bebidas">Bebidas</h2>
+            <p>Pra refrescar a prosa.</p>
+          </div>
+          <!-- Cada div com class="produto" representa um produto. -->
+          <div class="grade-produtos">
+            <div class="produto" id="refrigerante">
+              <img src="imagens/refrigerante.jpg" alt="Lata de refrigerante em foto ilustrativa." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Refrigerante</h3>
+                <p>Lata de 350 ml. Opções de cola, guaraná ou laranja.</p>
+                <p class="preco">R$ 6,90</p>
+              </div>
+            </div>
+            <div class="produto" id="suco-de-laranja">
+              <img src="imagens/suco-de-laranja.jpg" alt="Suco de laranja em foto ilustrativa." width="800"
+                height="500">
+              <div class="produto-info">
+                <h3>Suco de Laranja</h3>
+                <p>Suco natural de laranja, servido gelado. Copo de 300 ml.</p>
+                <p class="preco">R$ 8,90</p>
+              </div>
+            </div>
+            <div class="produto" id="agua-mineral">
+              <img src="imagens/agua-mineral.jpg" alt="Água em foto ilustrativa; a apresentação pode variar."
+                width="800" height="500">
+              <div class="produto-info">
+                <h3>Água Mineral</h3>
+                <p>Garrafa de 500 ml, com ou sem gás.</p>
+                <p class="preco">R$ 4,90</p>
+              </div>
+            </div>
+            <div class="produto" id="milk-shake">
+              <img src="imagens/milk-shake.jpg" alt="Milk-shake em copo, em foto ilustrativa." width="800" height="500">
+              <div class="produto-info">
+                <h3>Milk-shake de Chocolate</h3>
+                <p>Sorvete, leite e calda de chocolate. Copo de 400 ml.</p>
+                <p class="preco">R$ 16,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="secao-montador" id="monte-o-seu" tabindex="-1">
+        <div class="container">
+          <div class="introducao-montador">
+            <h2 id="titulo-montador">Monte seu<br><b class="destaque-titulo">hambúrguer.</b></h2>
+            <p>Um pão, uma carne, um queijo e o seu toque final. Selecione as opções e experimente uma combinação com a
+              sua cara.</p>
+          </div>
+          <!-- Formulario: radio escolhe uma opcao; checkbox permite varias. aria-label da um nome acessivel ao campo. -->
+          <form class="montador" aria-labelledby="titulo-montador" aria-describedby="nota-montador">
+            <div class="montador-opcoes">
+              <div class="grupo-formulario">
+                <p class="titulo-grupo">Escolha o pão</p>
+                <p class="ajuda-grupo">Selecione uma opção.</p>
+                <div class="opcoes">
+                  <div class="opcao">
+                    <input type="radio" name="pao" value="brioche" checked aria-label="Brioche; Incluído na base">
+                    <div class="opcao-texto">
+                      <b>Brioche</b>
+                      <p class="detalhe-opcao">Incluído na base</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="pao" value="leite" aria-label="Pão de leite; Incluído na base">
+                    <div class="opcao-texto">
+                      <b>Pão de leite</b>
+                      <p class="detalhe-opcao">Incluído na base</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="pao" value="australiano" aria-label="Australiano; + R$ 2,00">
+                    <div class="opcao-texto">
+                      <b>Australiano</b>
+                      <p class="detalhe-opcao">+ R$ 2,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-formulario">
+                <p class="titulo-grupo">Escolha a carne</p>
+                <p class="ajuda-grupo">Selecione uma opção.</p>
+                <div class="opcoes">
+                  <div class="opcao">
+                    <input type="radio" name="carne" value="bovino" checked
+                      aria-label="Bovino · 150 g; Incluído na base">
+                    <div class="opcao-texto">
+                      <b>Bovino · 150 g</b>
+                      <p class="detalhe-opcao">Incluído na base</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="carne" value="artesanal" aria-label="Artesanal · 180 g; + R$ 4,00">
+                    <div class="opcao-texto">
+                      <b>Artesanal · 180 g</b>
+                      <p class="detalhe-opcao">+ R$ 4,00</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="carne" value="frango" aria-label="Frango · 150 g; Incluído na base">
+                    <div class="opcao-texto">
+                      <b>Frango · 150 g</b>
+                      <p class="detalhe-opcao">Incluído na base</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-formulario">
+                <p class="titulo-grupo">Escolha o queijo</p>
+                <p class="ajuda-grupo">Selecione uma opção.</p>
+                <div class="opcoes">
+                  <div class="opcao">
+                    <input type="radio" name="queijo" value="prato" checked aria-label="Queijo prato; Incluído na base">
+                    <div class="opcao-texto">
+                      <b>Queijo prato</b>
+                      <p class="detalhe-opcao">Incluído na base</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="queijo" value="coalho" aria-label="Queijo coalho; + R$ 3,00">
+                    <div class="opcao-texto">
+                      <b>Queijo coalho</b>
+                      <p class="detalhe-opcao">+ R$ 3,00</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="radio" name="queijo" value="cheddar" aria-label="Cheddar; + R$ 2,00">
+                    <div class="opcao-texto">
+                      <b>Cheddar</b>
+                      <p class="detalhe-opcao">+ R$ 2,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-formulario">
+                <p class="titulo-grupo">Capriche nos adicionais</p>
+                <p class="ajuda-grupo">Você pode escolher vários ou deixar sem adicionais.</p>
+                <div class="opcoes opcoes-adicionais">
+                  <div class="opcao">
+                    <input type="checkbox" name="adicionais" value="bacon" aria-label="Bacon crocante; + R$ 4,00">
+                    <div class="opcao-texto">
+                      <b>Bacon crocante</b>
+                      <p class="detalhe-opcao">+ R$ 4,00</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="checkbox" name="adicionais" value="carne-de-sol" aria-label="Carne de sol; + R$ 6,00">
+                    <div class="opcao-texto">
+                      <b>Carne de sol</b>
+                      <p class="detalhe-opcao">+ R$ 6,00</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="checkbox" name="adicionais" value="banana" aria-label="Banana-da-terra; + R$ 3,00">
+                    <div class="opcao-texto">
+                      <b>Banana-da-terra</b>
+                      <p class="detalhe-opcao">+ R$ 3,00</p>
+                    </div>
+                  </div>
+                  <div class="opcao">
+                    <input type="checkbox" name="adicionais" value="cebola" aria-label="Cebola caramelizada; + R$ 2,00">
+                    <div class="opcao-texto">
+                      <b>Cebola caramelizada</b>
+                      <p class="detalhe-opcao">+ R$ 2,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="botao botao-contorno" type="reset">Recomeçar seleção</button>
+            </div>
+            <!-- Informacoes ilustrativas. O preco nao e calculado automaticamente. -->
+            <div class="montador-resumo">
+              <h3>Do seu jeito, visse?</h3>
+              <img src="imagens/hero-burguer.png"
+                alt="Sugestão ilustrativa de hambúrguer; a imagem não muda com as escolhas." width="1280" height="1280">
+              <p class="preco-base">Sua combinação começa em<b>R$ 22,90</b></p>
+              <p class="explicacao-preco">A base inclui pão, carne e queijo nas opções sem acréscimo, além de alface,
+                tomate e molho da casa. Some os acréscimos das suas escolhas ao valor-base.</p>
+              <p class="nota-simulacao" id="nota-montador">Simulação acadêmica. Os preços são ilustrativos, não há
+                cálculo automático do total e as seleções não enviam pedidos.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Rodape: nome da hamburgueria e informacoes do projeto. -->
+    <div class="rodape">
+      <div class="container">
+        <div class="rodape-linha">
+          <a class="marca marca-rodape" href="index.html">
+            Xerô
+            <div>Burguer</div>
+          </a>
+          <p>Sabor que conta história.</p>
+          <a href="#topo">Voltar ao topo ↑</a>
+        </div>
+        <p class="nota-projeto">Projeto acadêmico · HTML e CSS · Preços fictícios. Fotos do Unsplash e imagem de
+          destaque gerada por IA.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
